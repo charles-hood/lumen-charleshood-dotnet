@@ -149,6 +149,30 @@ figcaption {
   text-align: center;
 }
 
+.contact-form {
+  margin-top: 36px;
+  label {
+    color: var(--color-typographic-base-font);
+  }
+  input,
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    margin: 8px 0 16px;
+    padding: 16px;
+    border-radius: 12px;
+    appearance: none;
+    font-size: 18px;
+    font-weight: 600;
+    &:focus {
+      border-color: var(--color-typographic-link-s-font);
+    }
+  }
+  textarea {
+    min-height: 200px;
+  }
+}
+
 @include breakpoint-sm {
   figure.float-left,
   figure.float-right {
