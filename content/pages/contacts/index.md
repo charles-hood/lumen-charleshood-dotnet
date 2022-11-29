@@ -1,6 +1,6 @@
 ---
 title: "Get In Touch"
-template: "page"
+template: "contact"
 socialImage: "./get-in-touch.png"
 ---
 <form class="the-contact-form" name="plzcontactme" method="POST" data-netlify="true">
