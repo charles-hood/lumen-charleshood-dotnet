@@ -3,22 +3,22 @@ title: "Get In Touch"
 template: "page"
 socialImage: "./get-in-touch.png"
 ---
-<form name="contact" method="POST" data-netlify="true">
+<form class="contact-form" name="contact" method="POST" data-netlify="true">
 <ul>
-	<li>
+	<p>
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="user_name" />
-	</li>
-	<li>
+	</p>
+	<p>
 		<label for="mail">E-mail:</label>
 		<input type="email" id="mail" name="user_mail" />
-	</li>
-	<li>
-		<label for="msg">Message:</label>
+	</p>
+	<p>
+		<label for="Note:">Message:</label>
 		<textarea id="msg" name="user_message" rows="5" cols="40"></textarea>
-	</li>
-	<li class="button">
+	</p>
+	<p>
 		<button type="submit">Send your message</button>
-	</li>
+	</p>
 </ul>
 </form>
