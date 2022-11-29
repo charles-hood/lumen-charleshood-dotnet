@@ -4,16 +4,21 @@ template: "page"
 socialImage: "./get-in-touch.png"
 ---
 <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+<ul>
+	<li>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="user_name" />
+	</li>
+	<li>
+		<label for="mail">E-mail:</label>
+		<input type="email" id="mail" name="user_mail" />
+	</li>
+	<li>
+		<label for="msg">Message:</label>
+		<textarea id="msg" name="user_message" rows="5" cols="40"></textarea>
+	</li>
+	<li class="button">
+		<button type="submit">Send your message</button>
+	</li>
+</ul>
 </form>
