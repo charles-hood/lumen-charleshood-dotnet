@@ -3,7 +3,7 @@ title: "Get In Touch"
 template: "page"
 socialImage: "./get-in-touch.png"
 ---
-<form class="contact-form" name="contactme" method="POST" data-netlify="true">
+<form class="contact-form" name="contactme" action="/pages/thankyou" method="POST" data-netlify="true">
 <label for="name">Name:</label>
 <input type="text" id="name" name="user_name" />
 <label for="mail">E-mail:</label>
