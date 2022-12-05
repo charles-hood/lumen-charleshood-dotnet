@@ -10,9 +10,7 @@ const Author = () => {
 
   return (
     <div className={styles.author}>
-      <p className={styles.bio}>
 	<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/charleshood?style=social">
-      </p>
     </div>
   );
 };
