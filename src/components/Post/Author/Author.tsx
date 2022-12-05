@@ -11,7 +11,15 @@ const Author = () => {
   return (
     <div className={styles.author}>
       <p className={styles.bio}>
-	<a href="https://twitter.com/charleshood"><a href="https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40charleshood"></a></a>
+        {author.bio}
+        <a
+          className={styles.twitter}
+          href={getContactHref("twitter", author.contacts.twitter)}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <strong>{author.name}</strong> on Twitter
+        </a>
       </p>
     </div>
   );
