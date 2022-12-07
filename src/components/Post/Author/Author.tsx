@@ -10,16 +10,10 @@ const Author = () => {
 
   return (
     <div className={styles.author}>
-      <p className={styles.bio}>
-        {author.bio}
-        <a
-          className={styles.twitter}
-          href={getContactHref("twitter", author.contacts.twitter)}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <strong>{author.name}</strong> on Twitter
-        </a>
+      <p>
+	<a href="https://twitter.com/charleshood" target="_blank" rel="nofollow noopener noreferrer">
+		<img src="https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&amp;label=Follow%20%40charleshood" alt="Twitter URL">
+	</a>
       </p>
     </div>
   );
