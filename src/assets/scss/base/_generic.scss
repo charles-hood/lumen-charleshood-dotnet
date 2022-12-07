@@ -77,6 +77,12 @@ img {
   max-width: 100%;
 }
 
+img.special {
+  border: 0;
+  display: inline-block;
+  max-width: 100%;
+}
+
 hr {
   background-image: linear-gradient(
     to bottom,
