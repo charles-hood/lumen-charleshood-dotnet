@@ -1,7 +1,7 @@
 {
   "title": "Charles Hood Dot Net",
   "url": "https://charleshood.net",
-  "subtitle": "An old school personal web log",
+  "subtitle": "My old school personal web log",
   "copyright": "© 2022 All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "charles-hood",
@@ -24,7 +24,7 @@
   "author": {
     "name": "Charles Hood",
     "photo": "/photo.jpg",
-    "bio": "An old school personal web log",
+    "bio": "My old school personal web log",
     "contacts": {
       "rss": "",
       "email": "charles.hood@gmail.com",
